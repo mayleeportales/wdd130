@@ -60,9 +60,12 @@ li {
     padding: 5px;
 }
 
-a {
-    text-decoration: none;
+header a {
     color: #fff;
+}
+
+a {
+    text-decoration: none
 }
 
 nav,
