@@ -214,7 +214,7 @@ address {
 }
 
 .map iframe {
-    width: 100%;
+    width: 27.3rem;
     height: 27.3rem;
     border: 0;
     display: block;
@@ -224,6 +224,7 @@ address {
     display: flex;
     flex-direction: column;
     gap: 18px;
+    width: 480px;
 }
 
 .form-row {
@@ -261,11 +262,13 @@ address {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    width: 100%;
 }
 
 .message-row textarea {
     width: 100%;
-    max-width: 400px;
+    /* max-width: 400px; */
+    box-sizing: border-box;
 }
 
 .full-row {
@@ -276,11 +279,16 @@ address {
     display: flex;
     align-items: center;
     gap: 10px;
+    /* width: 100%; */
 }
 
 .newsletter input {
     width: auto;
     margin: 0;
+}
+
+.newsletter-row {
+    width: 100%;
 }
 
 .contact-form button {
