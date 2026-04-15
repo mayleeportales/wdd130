@@ -71,14 +71,6 @@ a {
     text-decoration: none
 }
 
-nav,
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
-}
-
 .flexbox {
     display: flex;
     align-items: center;
@@ -89,6 +81,10 @@ article {
 .flexbox img {
     width: 200px;
     height: auto;
+}
+
+.adventure {
+    margin-bottom: 40px;
 }
 
 .adventure-photos {
@@ -116,17 +112,19 @@ article {
     text-align: center;
 }
 
-.hero article {
-    position: absolute;
-    background-color: var(--accent1-color);
-    opacity: 0.7;
-    top: 250px;
-    color: #fff;
-}
-
-.hero article img {
+.hero-section img {
     float: right;
     width: 100px;
+    margin-left: 16px;
+}
+
+.hero-section p {
+    margin: 0;
+}
+
+.history {
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 footer {
@@ -176,15 +174,37 @@ footer p {
     height: auto;
 }
 
-h1 {
+.hero-title {
     position: absolute;
     top: 20px;
+    left: 0;
     width: 100%;
+    margin: 0;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
+}
+
+.hero-box {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    right: 20px;
+    padding: 20px;
+    background-color: rgba(42, 76, 114, 0.7);
+    color: #fff;
+}
+
+.hero-box img {
+    float: right;
+    width: 100px;
+    margin-left: 16px;
+}
+
+.hero-box p {
+    margin: 0;
 }
 
 h2 {
