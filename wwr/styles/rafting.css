@@ -219,6 +219,7 @@ h2 {
     position: relative;
     color: var(--title-color);
     background-color: transparent;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
@@ -316,6 +317,10 @@ address {
     width: 100%;
     padding: 12px;
     cursor: pointer;
+}
+
+.employees {
+    margin-bottom: 30px;
 }
 
 .employees-photos {
