@@ -167,7 +167,7 @@ footer p {
 }
 
 .hero img {
-    margin-top: 20px;
+    margin-top: 40px;
     display: block;
     width: 100%;
     height: auto;
@@ -289,7 +289,6 @@ address {
 
 .message-row textarea {
     width: 100%;
-    /* max-width: 400px; */
     box-sizing: border-box;
 }
 
