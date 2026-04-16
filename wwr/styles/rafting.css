@@ -29,7 +29,6 @@ main {
 header {
     width: 100%;
     background-color: var(--header-footer);
-    color: #fff;
 }
 
 .header-content img {
