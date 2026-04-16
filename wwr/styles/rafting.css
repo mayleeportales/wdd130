@@ -443,7 +443,6 @@ address {
 .form-row-home label {
     color: #fff;
     font-size: 1.2rem;
-    /* text-align: left; */
 }
 
 .button-row-home {
@@ -459,13 +458,16 @@ address {
     border-radius: 4px;
     background-color: #fff;
     color: #2a4c72;
-    /* font-size: 1rem; */
     cursor: pointer;
 }
 
 .adventure-home {
     text-align: center;
     margin: 100px 0;
+}
+
+.adventure-home h2 {
+    margin-bottom: 20px;
 }
 
 .trips-button {
@@ -477,6 +479,7 @@ address {
     border-radius: 6px;
     font-size: 1rem;
     font-weight: bold;
+    margin-top: 30px;
 }
 
 .home-grid {
